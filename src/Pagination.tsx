@@ -46,10 +46,10 @@ function Pagination({ totalPage, page, limit = 5, handlePage }: PaginationProps)
     return (
         <div css={wrapperCss}>
             <button css={arrowButtonCss} type="button" onClick={handleMoveFirst} className={prevClassName}>
-                <Icon name="DoubleArrowLeft" />
+                {/* <Icon name="DoubleArrowLeft" /> */}
             </button>
             <button css={arrowButtonCss} type="button" onClick={handlePrev} className={prevClassName}>
-                <Icon name="ArrowLeft" />
+                {/* <Icon name="ArrowLeft" /> */}
             </button>
             {pageGroups[currentPageGroup].map((pageNumber) => (
                 <button
@@ -62,10 +62,10 @@ function Pagination({ totalPage, page, limit = 5, handlePage }: PaginationProps)
                 </button>
             ))}
             <button css={arrowButtonCss} type="button" onClick={handleNext} className={nextClassName}>
-                <Icon name="ArrowRight" />
+                {/* <Icon name="ArrowRight" /> */}
             </button>
             <button css={arrowButtonCss} type="button" onClick={handleMoveLast} className={nextClassName}>
-                <Icon name="DoubleArrowRight" />
+                {/* <Icon name="DoubleArrowRight" /> */}
             </button>
         </div>
     )
