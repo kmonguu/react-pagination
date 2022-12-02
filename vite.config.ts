@@ -7,7 +7,7 @@ export default defineConfig({
     plugins: [react({ jsxImportSource: '@emotion/react' }), dts()],
     build: {
         lib: {
-            entry: resolve(__dirname, 'src/index.ts'),
+            entry: resolve(__dirname, 'src/lib/index.ts'),
             name: 'ReactPagination',
         },
         rollupOptions: {
