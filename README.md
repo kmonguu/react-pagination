@@ -1,5 +1,8 @@
 # React-Pagination
 
+### Demo
+![Alt Text](./src/assets/demo.gif)
+
 ### 설치 방법
 ```
 npm i react-pagination
