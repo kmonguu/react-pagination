@@ -30,6 +30,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["@emotion/css", "virtual:54e4ca32a986af0f4bcf8895d9c2a73e22284aaeb84fdeafa9baaef185b9906f780aa99148c5d9f98350d82a52504622f9226fa9b44a57f2b9c38db5efa138b9#npm:11.10.5"],\
             ["@emotion/react", "virtual:54e4ca32a986af0f4bcf8895d9c2a73e22284aaeb84fdeafa9baaef185b9906f780aa99148c5d9f98350d82a52504622f9226fa9b44a57f2b9c38db5efa138b9#npm:11.10.5"],\
+            ["@types/node", "npm:18.11.10"],\
             ["@types/prettier", "npm:2.7.1"],\
             ["@types/react", "npm:18.0.25"],\
             ["@types/react-dom", "npm:18.0.9"],\
@@ -986,6 +987,13 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/@types-node-npm-12.20.24-eaac21a824-e7a13460e2.zip/node_modules/@types/node/",\
           "packageDependencies": [\
             ["@types/node", "npm:12.20.24"]\
+          ],\
+          "linkType": "HARD"\
+        }],\
+        ["npm:18.11.10", {\
+          "packageLocation": "./.yarn/cache/@types-node-npm-18.11.10-cca0d46cb2-0f60cb090b.zip/node_modules/@types/node/",\
+          "packageDependencies": [\
+            ["@types/node", "npm:18.11.10"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3355,6 +3363,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["react-pagination", "workspace:."],\
             ["@emotion/css", "virtual:54e4ca32a986af0f4bcf8895d9c2a73e22284aaeb84fdeafa9baaef185b9906f780aa99148c5d9f98350d82a52504622f9226fa9b44a57f2b9c38db5efa138b9#npm:11.10.5"],\
             ["@emotion/react", "virtual:54e4ca32a986af0f4bcf8895d9c2a73e22284aaeb84fdeafa9baaef185b9906f780aa99148c5d9f98350d82a52504622f9226fa9b44a57f2b9c38db5efa138b9#npm:11.10.5"],\
+            ["@types/node", "npm:18.11.10"],\
             ["@types/prettier", "npm:2.7.1"],\
             ["@types/react", "npm:18.0.25"],\
             ["@types/react-dom", "npm:18.0.9"],\
@@ -3976,7 +3985,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["vite", "virtual:54e4ca32a986af0f4bcf8895d9c2a73e22284aaeb84fdeafa9baaef185b9906f780aa99148c5d9f98350d82a52504622f9226fa9b44a57f2b9c38db5efa138b9#npm:3.2.4"],\
             ["@types/less", null],\
-            ["@types/node", null],\
+            ["@types/node", "npm:18.11.10"],\
             ["@types/sass", null],\
             ["@types/stylus", null],\
             ["@types/sugarss", null],\

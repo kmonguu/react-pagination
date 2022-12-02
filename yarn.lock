@@ -731,6 +731,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/node@npm:^18.11.10":
+  version: 18.11.10
+  resolution: "@types/node@npm:18.11.10"
+  checksum: 0f60cb090b2ee91fcd3dc4311bc1ed7889b92f14644c0069f100776f86474c12eebbcc6c75bc0d7d96b975a103b4d5d6b3c22b4e88bea6e7f4e2b1bb0daf5ea8
+  languageName: node
+  linkType: hard
+
 "@types/parse-json@npm:^4.0.0":
   version: 4.0.0
   resolution: "@types/parse-json@npm:4.0.0"
@@ -2777,6 +2784,7 @@ __metadata:
   dependencies:
     "@emotion/css": ^11.10.5
     "@emotion/react": ^11.10.5
+    "@types/node": ^18.11.10
     "@types/prettier": ^2
     "@types/react": ^18.0.24
     "@types/react-dom": ^18.0.8
