@@ -1,7 +1,7 @@
 # React-Pagination-Lib
 
 ### Demo
-![Alt Text](./src/assets/demo.gif)
+![Alt Text](https://github.com/kmonguu/react-pagination/blob/main/public/demo.gif?raw=true)
 
 ### 설치 방법
 ```
