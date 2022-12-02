@@ -1,4 +1,4 @@
-# React-Pagination
+# React-Pagination-Lib
 
 ### Demo
 ![Alt Text](./src/assets/demo.gif)
