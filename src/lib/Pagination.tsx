@@ -46,13 +46,14 @@ function Pagination({ totalPage, page, limit = 5, handlePage }: PaginationProps)
     return (
         <div css={wrapperCss}>
             <button css={arrowButtonCss} type="button" onClick={handleMoveFirst} className={prevClassName}>
-                {/* <Icon name="DoubleArrowLeft" /> */}
+                {'<<'}
             </button>
             <button css={arrowButtonCss} type="button" onClick={handlePrev} className={prevClassName}>
-                {/* <Icon name="ArrowLeft" /> */}
+                {'<'}
             </button>
             {pageGroups[currentPageGroup].map((pageNumber) => (
                 <button
+                    key={pageNumber}
                     css={pageButtonCss}
                     type="button"
                     className={page === pageNumber ? 'active' : undefined}
@@ -62,10 +63,10 @@ function Pagination({ totalPage, page, limit = 5, handlePage }: PaginationProps)
                 </button>
             ))}
             <button css={arrowButtonCss} type="button" onClick={handleNext} className={nextClassName}>
-                {/* <Icon name="ArrowRight" /> */}
+                {'>'}
             </button>
             <button css={arrowButtonCss} type="button" onClick={handleMoveLast} className={nextClassName}>
-                {/* <Icon name="DoubleArrowRight" /> */}
+                {'>>'}
             </button>
         </div>
     )
@@ -96,13 +97,15 @@ const wrapperCss = css`
     justify-content: center;
     margin: 20px 0 10px 0;
 
+    button {
+        border: none;
+        background: #fff;
+    }
+
     .disabled {
         pointer-events: none;
+        color: #e0e0e0;
         cursor: default;
-
-        svg > path {
-            fill: ${theme.color.grayColor.grey30};
-        }
     }
 `
 
@@ -123,14 +126,14 @@ const pageButtonCss = css`
 
     &.active {
         span {
-            background-color: ${theme.color.grayColor.grey20};
+            background-color: #e9eaea;
             border-radius: 50%;
         }
     }
 
     :hover {
         span {
-            background: ${theme.color.grayColor.grey10};
+            background: #f7f7f8;
             border-radius: 50%;
         }
     }
