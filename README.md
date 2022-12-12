@@ -15,8 +15,3 @@ yarn add react-pagination
 2. yarn dev
 ```
 
-### Notice
-```
-패키지 관리는 yarn berry zero install을 사용하고 있어,
-별도의 패키지를 설지하지 않아도 됨
-```
